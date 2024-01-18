@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+html{
+  scroll-behavior: smooth !important;
+}
+body{
+  font-family: 'Inter', sans-serif !important;
+  overflow-x: hidden !important;
+  letter-spacing: .35px !important;
+}
+.gpt-sidebar{
+  background-color: #000 !important;
+}
+.gpt-chat-area{
+  background-color: #343541 !important;
+}
+.gpt-prompt{
+  margin-top: 29vh;
+  margin-bottom: 24vh;
+}
+.gpt-circle{
+  background-color: #fff !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  display: block !important;
+  width: 70px;
+  height: 70px;
+  padding: 14px 5px !important;
+  border-radius: 10rem;
+}
+.gpt-circle-2{
+  background-color: #fff !important;
+  /* margin-left: auto !important;
+  margin-right: auto !important;
+  display: block !important; */
+  width: 30px;
+  height: 30px;
+  padding: 2px 5px !important;
+  border-radius: 10rem;
+}
+.gpt-message-box{
+  margin-top: 1vh !important;
+  /* margin-left: auto !important;;
+  margin-right: auto !important;;
+  display: block !important; */
+}
+.pl-5, .px-6 {
+  padding-left: 5rem!important;
+}
+
+.pr-5, .px-6 {
+  padding-right: 5rem!important;
+}
+
+.gpt-extra-small{
+  font-size: 11px;
+  color: #9A999F !important;
+}
+.gpt-caution{
+  margin-top: -15px;
+}
+.gpt-form-control{
+  background-color: transparent !important;
+  border: 1px solid #5E5E6A !important;
+  border-radius: 15px !important;
+  padding: 28px 20px !important;
+  box-shadow: none !important;
+  font-size: 16px !important;
+  color: #fff !important;
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+  border-right: none !important;
+}
+::placeholder {
+  color: #9A999F !important;
+}
+::-ms-input-placeholder { 
+  color: #9A999F !important;
+}
+.gpt-submit{
+  border-left: none !important;
+  border-top: 1px solid #5E5E6A !important;
+  border-right: 1px solid #5E5E6A !important;
+  border-bottom: 1px solid #5E5E6A !important;
+  border-top-right-radius: 15px !important;
+  border-bottom-right-radius: 15px !important;
+  padding: 10px;
+}
+.gpt-btn-gray{
+  background-color: #494A54;
+  width: 33px !important;
+  height: 33px !important;
+  border-radius: 8px !important;
+  text-align: center !important;
+  padding: 1px 8px !important;
+  box-shadow: none !important;
+  color: #343541 !important;
+}
+.gpt-btn-gray:hover{
+  background-color: #343541 !important;
+  border: 1px solid #fff !important;
+  color: #fff !important;
+}
+.gpt-sample-prompt-title{
+  color: #cdcddb !important;
+}
+.gpt-prompt-card{
+  border: 1px solid #5E5E6A !important;
+  background-color: transparent !important;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.gpt-prompt-card:hover{
+  background-color: #414352 !important;
+}
+/* .pr-10{
+  padding-right: -5px !important;
+}
+.pl-10{
+  padding-left: -5px !important;
+} */
+.gpt-new-chat-btn:hover{
+  background-color: #202123 !important;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.text-bg{
+  color: #343541;
+}

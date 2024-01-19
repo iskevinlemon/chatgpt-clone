@@ -1,8 +1,9 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Caution from "./Caution";
 // import MessageBox from "./MessageBox";
 import Prompt from "./Prompt";
 import Sidebar from "./Sidebar";
+import PromptCard from "./PromptCard";
 // import Svg from "./Svg";
 
 function App() {
@@ -32,6 +33,10 @@ function App() {
 
   const [userMessage, setUserMessage] = useState("");
 
+  useEffect(() => {
+    console.log("Application loaded...");
+  },[]);
+
   return (
     <>
       <div className="row vh-100">
@@ -48,12 +53,11 @@ function App() {
             
             <div className="row">
               {promptBoxes.map((item) => (
-                <div className="col-lg-6 gpt-sample-prompt-title pr-10 pl-10" key={item.id}>
-                  <div className="card gpt-prompt-card px-4 py-3 mt-2">
-                    {item.title}
-                    <div className="text-secondary">{item.subtitle}</div>
-                  </div>
-                </div>
+                <PromptCard
+                  key={item.id}
+                  title={item.title}
+                  subtitle={item.subtitle}
+                />
               ))}
             </div>
             

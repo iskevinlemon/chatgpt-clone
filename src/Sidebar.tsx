@@ -20,7 +20,7 @@ const Sidebar = () => {
                 </div>
 
                 <div className="px-4 mt-3">
-                <small className="text-secondary">Today</small>
+                    <small className="text-secondary">Today</small>
                 </div>
 
             </div>
